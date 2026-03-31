@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Flow Forge | ETL Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header class="glass">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="highlight">API</span> Flow Forge
+            </div>
+            <nav>
+                <div class="status-badge">
+                    <span class="dot"></span> Pipeline Active
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Automated <span class="gradient-text">ETL Insights</span></h1>
+            <p class="subtitle">Extracting, Transforming, and Loading e-commerce data from DummyJSON API to optimized datasets.</p>
+        </section>
+
+        <section class="stats-grid" id="stats-container">
+            <div class="stat-card glass">
+                <p>Extracted Records</p>
+                <h2 id="stat-total">--</h2>
+            </div>
+            <div class="stat-card glass">
+                <p>Inventory Value</p>
+                <h2 id="stat-value">--</h2>
+            </div>
+            <div class="stat-card glass">
+                <p>Premium Items</p>
+                <h2 id="stat-premium">--</h2>
+            </div>
+            <div class="stat-card glass">
+                <p>Transformations</p>
+                <h2 id="stat-ops">14 per record</h2>
+            </div>
+        </section>
+
+        <section class="data-grid" id="product-grid">
+            <!-- Product cards will be injected here -->
+            <div class="loading">Loading processed dataset...</div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <div class="container">
+            <p>&copy; 2026 API Flow Forge | Professional Portfolio Project</p>
+        </div>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
