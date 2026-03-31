@@ -1,0 +1,12 @@
+app/
+data/raw/
+logs/
+*.py
+requirements.txt
+.env.example
+.gitignore
+README.md
+task.md
+implementation_plan.md
+walkthrough.md
+vercel_portfolio_copy.md
